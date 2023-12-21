@@ -1,7 +1,7 @@
 {
     "name": "kirbyschool/merkurkit",
     "require": {
-        "getkirby/cms": "^3.9"
+        "getkirby/cms": "^4.0"
     },
     "authors": [
         {

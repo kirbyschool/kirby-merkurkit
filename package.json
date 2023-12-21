@@ -1,6 +1,6 @@
 {
   "name": "merkurkit",
-  "version": "1.0.0",
+  "version": "0.1.0",
   "description": "Merkurkit",
   "scripts": {
     "build:js": "esbuild src/javascript/script.js --bundle --minify --outfile=public/assets/script.js",
