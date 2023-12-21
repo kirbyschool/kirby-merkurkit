@@ -1,0 +1,20 @@
+{
+    "name": "kirbyschool/merkurkit",
+    "require": {
+        "getkirby/cms": "^3.9"
+    },
+    "authors": [
+        {
+            "name": "iskrisis",
+            "email": "mail@kristianmanas.com"
+        }
+    ],
+    "config": {
+        "allow-plugins": {
+            "getkirby/composer-installer": true
+        }
+    },
+    "extra": {
+        "kirby-cms-path": false
+    }
+}

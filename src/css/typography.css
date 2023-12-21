@@ -1,0 +1,6 @@
+@layer utilities {
+
+    .text-xl {
+        font-size: 4rem;
+    }
+}

@@ -1,0 +1,54 @@
+__*
+
+content
+content/*
+content/**/*
+composer.lock
+package-lock.json
+
+
+public/assets/style.css
+public/assets/script.js
+
+# System files
+# ------------
+Icon
+.DS_Store
+
+# Temporary files
+# ---------------
+/public/media/*
+!/public/media/index.html
+/public/static/*
+!/public/static/index.html
+
+# Lock files
+# ---------------
+.lock
+
+# -------------SECURITY-------------
+# NEVER publish these files via Git!
+# -------------SECURITY-------------
+
+# Storage Files
+# ---------------
+/storage/*
+
+# Plugins
+# ---------------
+/site/plugins/*
+!/site/plugins/index.html
+
+# Sessions
+# ---------------
+/storage/sessions/*
+!/storage/sessions/index.html
+
+# License
+# ---------------
+/site/config/.license
+
+# Vendor files
+# ---------------
+/node_modules
+/vendor
