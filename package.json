@@ -4,7 +4,7 @@
   "description": "Merkurkit",
   "scripts": {
     "build:js": "esbuild src/javascript/script.js --bundle --minify --outfile=public/assets/script.js",
-    "watch:js": "esbuild src/javascript/script.js --bundle --sourcemap=inline --outfile=public/assets/script.js",
+    "watch:js": "esbuild src/javascript/script.js --bundle --sourcemap=inline --watch --outfile=public/assets/script.js",
     "build:css": "postcss src/css/style.css -o public/assets/style.css --no-map --verbose",
     "watch:css": "postcss src/css/style.css -o public/assets/style.css --watch --verbose",
     "watch:browsersync": "browser-sync start --proxy 'merkurkit.test' --files 'public/assets/style.css' 'site/**/*.php' 'site/**/**/*.php' --no-open --no-notify --no-inject-changes",
